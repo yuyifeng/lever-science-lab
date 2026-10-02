@@ -4,7 +4,7 @@ import tsconfigPaths from "vite-tsconfig-paths";
 
 // https://vite.dev/config/
 export default defineConfig(({ command }) => ({
-  base: command === "build" ? "/lever-science-lab/" : "/",
+  base: "/lever-science-lab/",
   build: {
     sourcemap: 'hidden',
   },
