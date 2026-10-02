@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-paper: #f6f0e3;
+  --color-paper-bright: #fffdf7;
+  --color-ink: #17324d;
+  --color-muted: #607184;
+  --color-line: #cad4d8;
+  --color-science: #1f7196;
+  --color-science-dark: #15536f;
+  --color-action: #ee8a3a;
+  --color-effort: #d85545;
+  --color-resistance: #287a68;
+  --font-display: "Ma Shan Zheng", "STKaiti", "KaiTi", serif;
+  --font-body: "Noto Sans SC", "PingFang SC", sans-serif;
+  --shadow-card: 0 8px 0 rgba(23, 50, 77, 0.08);
+  --shadow-lifted: 0 16px 36px rgba(23, 50, 77, 0.14);
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 9rem;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-color: var(--color-paper);
+  background-image:
+    linear-gradient(rgba(31, 113, 150, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 113, 150, 0.035) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-action);
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #fff;
+  background: var(--color-science);
+}
+
+@layer components {
+  .paper-card {
+    @apply rounded-lg border-2 border-ink/20 bg-white/80 shadow-card backdrop-blur-sm;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-science/20 bg-science/10 px-3 py-1 text-xs font-bold tracking-[0.16em] text-science-dark;
+  }
+
+  .section-title {
+    @apply font-display text-4xl leading-tight text-ink tablet:text-5xl;
+  }
+
+  .body-copy {
+    @apply text-sm leading-7 text-muted tablet:text-base;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

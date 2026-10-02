@@ -1,0 +1,120 @@
+{
+  "fallbackState": {
+    "visible": true,
+    "markerCount": 6
+  },
+  "allLoaded": true,
+  "allCorrectApi": true,
+  "results": [
+    {
+      "kind": "tool",
+      "name": "剪刀",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20child-safe%20craft%20scissors%20cutting%20blue%20cardstock%2C%20top-down%20view%20on%20a%20clean%20pale%20science%20desk%2C%20scissors%20fully%20visible%20horizontally%2C%20pivot%20screw%20centered%2C%20handles%20on%20left%20and%20cutting%20tips%20on%20right%2C%20no%20hands%20covering%20the%20mechanism%2C%20no%20text%2C%20no%20logo%2C%20suitable%20for%20an%20elementary%20science%20website&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "剪刀剪纸，铰链、手柄和刀刃清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "钳子",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20combination%20pliers%20gripping%20a%20small%20metal%20ring%2C%20top-down%20view%20on%20a%20clean%20pale%20workshop%20desk%2C%20pliers%20horizontal%20with%20handles%20on%20left%2C%20pivot%20clearly%20visible%20in%20center%20and%20jaws%20on%20right%2C%20no%20brand%2C%20no%20text%2C%20no%20injury%2C%20suitable%20for%20children&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "钳子夹住金属环，手柄、转轴和钳口清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "开瓶器",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20close-up%20educational%20photograph%20of%20a%20simple%20metal%20bottle%20opener%20lifting%20a%20crown%20cap%20from%20a%20glass%20soda%20bottle%2C%20side%20view%2C%20opener%20handle%20extends%20clearly%20to%20the%20right%2C%20bottle%20rim%20and%20cap%20contact%20visible%2C%20neutral%20studio%20background%2C%20no%20brand%2C%20no%20text%2C%20child-safe%20science%20demonstration&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "开瓶器正在撬起瓶盖，瓶口接触处和长柄清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "核桃夹",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20hinged%20metal%20nutcracker%20cracking%20a%20walnut%2C%20side%20view%20on%20a%20clean%20pale%20tabletop%2C%20hinge%20on%20left%2C%20walnut%20close%20to%20hinge%2C%20two%20long%20handles%20extending%20right%20with%20a%20hand%20gently%20squeezing%2C%20all%20mechanism%20visible%2C%20no%20text%2C%20no%20logo%2C%20suitable%20for%20elementary%20students&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "核桃夹夹住核桃，铰链、核桃和长手柄清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "镊子",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20macro%20educational%20photograph%20of%20blunt-tip%20metal%20tweezers%20picking%20up%20a%20small%20green%20craft%20bead%2C%20side%20view%20on%20a%20clean%20white%20science%20desk%2C%20joined%20end%20on%20left%2C%20fingers%20pressing%20near%20the%20middle%20and%20tips%20on%20right%2C%20full%20tweezers%20visible%2C%20no%20spider%2C%20no%20medical%20scene%2C%20no%20text%2C%20suitable%20for%20children&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "钝头镊子夹起绿色小珠，连接端、手指和镊尖清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "筷子",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20hand%20using%20wooden%20chopsticks%20to%20pick%20up%20one%20black%20bean%20from%20a%20white%20dish%2C%20side%20angle%2C%20chopstick%20ends%20in%20hand%20on%20left%20and%20tips%20on%20right%2C%20entire%20lever%20action%20visible%2C%20clean%20dining%20setting%2C%20no%20text%2C%20no%20logo%2C%20suitable%20for%20children&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "筷子夹起黑豆，手指位置和筷尖清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "跷跷板",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20balanced%20playground%20seesaw%20with%20two%20equal%20empty%20seats%2C%20side%20view%2C%20central%20triangular%20pivot%20clearly%20visible%2C%20full%20beam%20horizontal%2C%20safe%20modern%20school%20playground%20in%20daylight%2C%20no%20children%2C%20no%20text%2C%20no%20logo&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "水平的跷跷板，中央支架和两端座位清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "tool",
+      "name": "天平",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20classic%20two-pan%20balance%20scale%20in%20equilibrium%2C%20front%20view%20on%20a%20clean%20pale%20laboratory%20desk%2C%20central%20pivot%20and%20equal%20horizontal%20arms%20clearly%20visible%2C%20one%20small%20equal%20mass%20on%20each%20pan%2C%20no%20text%2C%20no%20logo%2C%20elementary%20science%20classroom&image_size=landscape_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "两盘天平保持水平，中央支点和等长横梁清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "human",
+      "name": "踮脚",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20side-view%20photograph%20of%20a%20child%20wearing%20sports%20clothes%20safely%20rising%20onto%20tiptoes%2C%20lower%20leg%20and%20foot%20fully%20visible%2C%20plain%20bright%20classroom%20background%2C%20no%20anatomy%20exposure%2C%20no%20text%2C%20neutral%20instructional%20pose&image_size=portrait_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "孩子侧身踮脚，脚尖、脚踝和脚跟清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "human",
+      "name": "屈肘举物",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20side-view%20photograph%20of%20a%20child%20bending%20the%20elbow%20to%20lift%20a%20very%20light%20foam%20dumbbell%2C%20upper%20arm%20steady%2C%20forearm%20horizontal%2C%20elbow%20and%20hand%20fully%20visible%2C%20plain%20bright%20classroom%20background%2C%20modest%20sports%20clothing%2C%20no%20anatomy%20exposure%2C%20no%20text&image_size=portrait_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "孩子屈肘举起轻质哑铃，肘关节、上臂和手清晰可见",
+      "correctApi": true
+    },
+    {
+      "kind": "human",
+      "name": "抬头",
+      "url": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20side-profile%20photograph%20of%20a%20child%20gently%20raising%20the%20head%20from%20a%20slightly%20lowered%20position%2C%20neck%20and%20shoulders%20visible%2C%20plain%20bright%20classroom%20background%2C%20normal%20clothing%2C%20no%20anatomy%20exposure%2C%20no%20text%2C%20calm%20safe%20posture&image_size=portrait_4_3",
+      "complete": true,
+      "naturalWidth": 1832,
+      "naturalHeight": 1832,
+      "alt": "孩子侧身轻轻抬头，后脑、颈部和头部重心方向清晰",
+      "correctApi": true
+    }
+  ]
+}

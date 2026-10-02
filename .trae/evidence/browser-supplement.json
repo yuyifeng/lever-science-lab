@@ -1,0 +1,44 @@
+{
+  "summary": {
+    "visible": true,
+    "progress": "100"
+  },
+  "clipping": [
+    {
+      "tag": "A",
+      "text": "生活生活应用当前章节",
+      "rect": [
+        382,
+        480
+      ],
+      "scrollParent": {
+        "tag": "NAV",
+        "aria": "课程章节",
+        "overflowX": "auto",
+        "scrollWidth": 412,
+        "clientWidth": 302
+      }
+    }
+  ],
+  "right": {
+    "evidence": true,
+    "result": true,
+    "predictionCorrect": true
+  },
+  "reset": {
+    "evidenceCleared": true,
+    "predictionCleared": true,
+    "status": true
+  },
+  "fallback": {
+    "visible": true,
+    "keepsLearning": true,
+    "retry": true,
+    "imageAndMarkers": false
+  },
+  "screenshots": [
+    ".trae/evidence/desktop-summary-1440x1000.png",
+    ".trae/evidence/tablet-experiment-820x1180.png",
+    ".trae/evidence/mobile-applications-390x844.png"
+  ]
+}

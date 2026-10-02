@@ -1,0 +1,506 @@
+{
+  "url": "http://127.0.0.1:5173/",
+  "screenshots": [
+    ".trae/evidence/desktop-first-1440x1000.png",
+    ".trae/evidence/desktop-summary-1440x1000.png",
+    ".trae/evidence/tablet-experiment-820x1180.png",
+    ".trae/evidence/mobile-first-390x844.png",
+    ".trae/evidence/mobile-applications-390x844.png",
+    ".trae/evidence/mobile-video-fallback-390x844.png",
+    ".trae/evidence/video-scissors-operation.png",
+    ".trae/evidence/video-pliers-operation.png",
+    ".trae/evidence/video-bottle-opener-operation.png",
+    ".trae/evidence/video-nutcracker-operation.png",
+    ".trae/evidence/video-tweezers-operation.png",
+    ".trae/evidence/video-chopsticks-operation.png",
+    ".trae/evidence/video-seesaw-operation.png",
+    ".trae/evidence/video-balance-operation.png"
+  ],
+  "desktop": {
+    "initial": {
+      "title": "杠杆实验室 | 小学科学互动教程",
+      "h1": "杠杆 实验室",
+      "sections": true,
+      "nav": [
+        "认识认识杠杆当前章节",
+        "实验动手实验",
+        "类型杠杆类型",
+        "生活生活应用"
+      ],
+      "progress": "0",
+      "runDisabled": true,
+      "evidenceHidden": true,
+      "noHorizontalOverflow": true,
+      "experimentTwoColumns": true,
+      "maxCardRadius": 8
+    }
+  },
+  "interactions": {
+    "elements": {
+      "explored": "5/5",
+      "practice": "3/3",
+      "feedback": true
+    },
+    "balanced": {
+      "board": true,
+      "evidence": true,
+      "predictionCorrect": true
+    },
+    "invalidated": {
+      "waitsForGuess": true,
+      "evidenceCleared": true,
+      "runDisabled": true
+    },
+    "left": {
+      "evidence": true,
+      "result": true,
+      "predictionCorrect": true
+    },
+    "reset": {
+      "evidenceCleared": true,
+      "predictionCleared": true,
+      "status": true
+    },
+    "quiz": {
+      "count": "3/3",
+      "explanations": 3
+    },
+    "progressAndSummary": {
+      "progress": "100",
+      "summaryVisible": true,
+      "achievements": 4,
+      "restartButtons": 2
+    },
+    "restartPractice": {
+      "summaryHidden": true,
+      "elementPracticeReset": true,
+      "typePracticeReset": true
+    }
+  },
+  "presets": [
+    {
+      "name": "省力杠杆",
+      "values": [
+        "6 刻度",
+        "1 刻度",
+        "8 刻度",
+        "2 N",
+        "5 N"
+      ],
+      "ok": true
+    },
+    {
+      "name": "费力杠杆",
+      "values": [
+        "2 刻度",
+        "0 刻度",
+        "7 刻度",
+        "5 N",
+        "2 N"
+      ],
+      "ok": true
+    },
+    {
+      "name": "等臂杠杆",
+      "values": [
+        "5 刻度",
+        "2 刻度",
+        "8 刻度",
+        "3 N",
+        "3 N"
+      ],
+      "ok": true
+    }
+  ],
+  "tools": [
+    {
+      "name": "剪刀",
+      "selected": "剪刀当前 · 省力杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Aerra%27s_Films_of_the_Ordinary_IV_--_Scissors_Cutting_Card_Stock.webm/Aerra%27s_Films_of_the_Ordinary_IV_--_Scissors_Cutting_Card_Stock.webm.480p.vp9.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20child-safe%20craft%20scissors%20cutting%20blue%20cardstock%2C%20top-down%20view%20on%20a%20clean%20pale%20science%20desk%2C%20scissors%20fully%20visible%20horizontally%2C%20pivot%20screw%20centered%2C%20handles%20on%20left%20and%20cutting%20tips%20on%20right%2C%20no%20hands%20covering%20the%20mechanism%2C%20no%20text%2C%20no%20logo%2C%20suitable%20for%20an%20elementary%20science%20website&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "Wikimedia Commons · Aerra Carnicom",
+      "license": "CC BY-SA 4.0",
+      "duration": 9.316,
+      "frameAt": 6.5,
+      "evidence": ".trae/evidence/video-scissors-operation.png",
+      "content": "剪刀刀刃绕铰链合拢并切开卡纸，操作物与切割动作清晰可辨",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "钳子",
+      "selected": "钳子当前 · 省力杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "/media/pliers-demo.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20combination%20pliers%20gripping%20a%20small%20metal%20ring%2C%20top-down%20view%20on%20a%20clean%20pale%20workshop%20desk%2C%20pliers%20horizontal%20with%20handles%20on%20left%2C%20pivot%20clearly%20visible%20in%20center%20and%20jaws%20on%20right%2C%20no%20brand%2C%20no%20text%2C%20no%20injury%2C%20suitable%20for%20children&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "本站自制示意动画",
+      "license": "本站原创教学素材",
+      "duration": 8,
+      "frameAt": 4,
+      "evidence": ".trae/evidence/video-pliers-operation.png",
+      "content": "钳口绕支点持续合拢、夹持软金属条并使其形成明显折角",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "开瓶器",
+      "selected": "开瓶器当前 · 省力杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "/media/bottle-opener-demo.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20close-up%20educational%20photograph%20of%20a%20simple%20metal%20bottle%20opener%20lifting%20a%20crown%20cap%20from%20a%20glass%20soda%20bottle%2C%20side%20view%2C%20opener%20handle%20extends%20clearly%20to%20the%20right%2C%20bottle%20rim%20and%20cap%20contact%20visible%2C%20neutral%20studio%20background%2C%20no%20brand%2C%20no%20text%2C%20child-safe%20science%20demonstration&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "本站自制示意动画",
+      "license": "本站原创教学素材",
+      "duration": 8,
+      "frameAt": 5.5,
+      "evidence": ".trae/evidence/video-bottle-opener-operation.png",
+      "content": "开瓶器抵住瓶口形成支点，长柄抬起并将瓶盖完整撬离",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "核桃夹",
+      "selected": "核桃夹当前 · 省力杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "/media/nutcracker-demo.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20hinged%20metal%20nutcracker%20cracking%20a%20walnut%2C%20side%20view%20on%20a%20clean%20pale%20tabletop%2C%20hinge%20on%20left%2C%20walnut%20close%20to%20hinge%2C%20two%20long%20handles%20extending%20right%20with%20a%20hand%20gently%20squeezing%2C%20all%20mechanism%20visible%2C%20no%20text%2C%20no%20logo%2C%20suitable%20for%20elementary%20students&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "本站自制示意动画",
+      "license": "本站原创教学素材",
+      "duration": 8,
+      "frameAt": 4,
+      "evidence": ".trae/evidence/video-nutcracker-operation.png",
+      "content": "核桃位于铰链附近，双臂合拢集中挤压力并出现裂缝",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "镊子",
+      "selected": "镊子当前 · 费力杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "/media/tweezers-demo.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20macro%20educational%20photograph%20of%20blunt-tip%20metal%20tweezers%20picking%20up%20a%20small%20green%20craft%20bead%2C%20side%20view%20on%20a%20clean%20white%20science%20desk%2C%20joined%20end%20on%20left%2C%20fingers%20pressing%20near%20the%20middle%20and%20tips%20on%20right%2C%20full%20tweezers%20visible%2C%20no%20spider%2C%20no%20medical%20scene%2C%20no%20text%2C%20suitable%20for%20children&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "本站自制示意动画",
+      "license": "本站原创教学素材",
+      "duration": 8,
+      "frameAt": 4.5,
+      "evidence": ".trae/evidence/video-tweezers-operation.png",
+      "content": "镊臂中部受力后钝头夹紧小珠并将其提起",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "筷子",
+      "selected": "筷子当前 · 费力杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_act_of_picking_up_black_beans_from_the_New_Year%27s_feast_with_chopsticks%2C_Niigata%2C_Japan%2C_January_2026.webm/The_act_of_picking_up_black_beans_from_the_New_Year%27s_feast_with_chopsticks%2C_Niigata%2C_Japan%2C_January_2026.webm.480p.vp9.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20hand%20using%20wooden%20chopsticks%20to%20pick%20up%20one%20black%20bean%20from%20a%20white%20dish%2C%20side%20angle%2C%20chopstick%20ends%20in%20hand%20on%20left%20and%20tips%20on%20right%2C%20entire%20lever%20action%20visible%2C%20clean%20dining%20setting%2C%20no%20text%2C%20no%20logo%2C%20suitable%20for%20children&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "Wikimedia Commons · Tail furry",
+      "license": "CC BY-SA 4.0",
+      "duration": 24.108,
+      "frameAt": 21,
+      "evidence": ".trae/evidence/video-chopsticks-operation.png",
+      "content": "两根筷尖合拢并夹取盘中的黑豆",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "跷跷板",
+      "selected": "跷跷板当前 · 等臂杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Stehwippe.webm/Stehwippe.webm.480p.vp9.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20balanced%20playground%20seesaw%20with%20two%20equal%20empty%20seats%2C%20side%20view%2C%20central%20triangular%20pivot%20clearly%20visible%2C%20full%20beam%20horizontal%2C%20safe%20modern%20school%20playground%20in%20daylight%2C%20no%20children%2C%20no%20text%2C%20no%20logo&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "Wikimedia Commons · GolhaMedia",
+      "license": "CC BY-SA 4.0",
+      "duration": 26.19,
+      "frameAt": 8,
+      "evidence": ".trae/evidence/video-seesaw-operation.png",
+      "content": "两人站在横梁两端，横梁绕中央支点一上一下运动",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    },
+    {
+      "name": "天平",
+      "selected": "天平当前 · 等臂杠杆",
+      "controls": true,
+      "autoplay": false,
+      "paused": true,
+      "preload": "metadata",
+      "source": "/media/balance-demo.webm",
+      "poster": "https://copilot-cn.bytedance.net/api/ide/v1/text_to_image?prompt=Realistic%20educational%20photograph%20of%20a%20classic%20two-pan%20balance%20scale%20in%20equilibrium%2C%20front%20view%20on%20a%20clean%20pale%20laboratory%20desk%2C%20central%20pivot%20and%20equal%20horizontal%20arms%20clearly%20visible%2C%20one%20small%20equal%20mass%20on%20each%20pan%2C%20no%20text%2C%20no%20logo%2C%20elementary%20science%20classroom&image_size=landscape_4_3",
+      "hasFocus": true,
+      "hasSummary": true,
+      "hasLicense": true,
+      "fallbackAvailable": true,
+      "sourceName": "本站自制示意动画",
+      "license": "本站原创教学素材",
+      "duration": 8,
+      "frameAt": 7.2,
+      "evidence": ".trae/evidence/video-balance-operation.png",
+      "content": "两盘分别放置物体与砝码，横梁由倾斜逐渐回到水平平衡",
+      "contentVerified": true,
+      "ageAppropriate": true,
+      "adFree": true,
+      "directMedia": true,
+      "nativeControlsVerified": true
+    }
+  ],
+  "humans": [
+    {
+      "name": "踮脚",
+      "requiredPointDescriptions": true,
+      "requiredPointMarkers": true,
+      "hasLeverExplanation": true
+    },
+    {
+      "name": "屈肘举物",
+      "requiredPointDescriptions": true,
+      "requiredPointMarkers": true,
+      "hasLeverExplanation": true
+    },
+    {
+      "name": "抬头",
+      "requiredPointDescriptions": true,
+      "requiredPointMarkers": true,
+      "hasLeverExplanation": true
+    }
+  ],
+  "tablet": {
+    "viewport": [
+      820,
+      1180
+    ],
+    "noHorizontalOverflow": true,
+    "experimentStacked": true,
+    "minButtonHeight": 44
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "noHorizontalOverflow": true,
+    "navScrollable": true,
+    "toolColumns": 2,
+    "clippedInteractive": 0,
+    "offscreenButScrollReachable": 1,
+    "clippingDetails": [
+      {
+        "reachableByScroll": true,
+        "text": "生活生活应用当前章节",
+        "parent": "NAV"
+      }
+    ]
+  },
+  "accessibility": {
+    "keyboard": {
+      "tag": "BUTTON",
+      "label": "支点",
+      "outlineWidth": "3px",
+      "outlineStyle": "solid"
+    },
+    "reducedMotion": {
+      "matches": true,
+      "transitionDuration": "1e-05s",
+      "htmlScrollBehavior": "auto"
+    }
+  },
+  "consoleErrors": [],
+  "failedRequests": [],
+  "imageAudit": {
+    "count": 2,
+    "allTextToImage": true,
+    "states": [
+      {
+        "alt": "两盘天平保持水平，中央支点和等长横梁清晰可见",
+        "complete": true,
+        "naturalWidth": 1832
+      },
+      {
+        "alt": "孩子侧身轻轻抬头，后脑、颈部和头部重心方向清晰",
+        "complete": true,
+        "naturalWidth": 1832
+      }
+    ]
+  },
+  "finalLayout": {
+    "scrollWidth": 390,
+    "innerWidth": 390,
+    "scrollHeight": 10068
+  },
+  "evidenceRevision": "task 9.1-9.3: replaced mismatched pliers, bottle-opener and balance videos; strengthened self-made nutcracker/tweezers demonstrations; re-verified all 8 videos with operation frames",
+  "videoContentAudit": {
+    "status": "passed",
+    "reviewedCount": 8,
+    "method": "逐段播放/接触表复核并以 ffmpeg 导出关键操作帧；直链素材下载成功，本地素材经 ffprobe 验证",
+    "requirements": {
+      "matchedOperation": true,
+      "readableSummary": true,
+      "sourceAndLicense": true,
+      "ageAppropriate": true,
+      "noAdsOrRecommendations": true,
+      "nativeControls": true,
+      "noAutoplay": true,
+      "fallback": true
+    },
+    "items": [
+      {
+        "name": "剪刀",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Aerra%27s_Films_of_the_Ordinary_IV_--_Scissors_Cutting_Card_Stock.webm/Aerra%27s_Films_of_the_Ordinary_IV_--_Scissors_Cutting_Card_Stock.webm.480p.vp9.webm",
+        "sourceName": "Wikimedia Commons · Aerra Carnicom",
+        "license": "CC BY-SA 4.0",
+        "duration": 9.316,
+        "frameAt": 6.5,
+        "evidence": ".trae/evidence/video-scissors-operation.png",
+        "content": "剪刀刀刃绕铰链合拢并切开卡纸，操作物与切割动作清晰可辨",
+        "result": "passed"
+      },
+      {
+        "name": "钳子",
+        "source": "/media/pliers-demo.webm",
+        "sourceName": "本站自制示意动画",
+        "license": "本站原创教学素材",
+        "duration": 8,
+        "frameAt": 4,
+        "evidence": ".trae/evidence/video-pliers-operation.png",
+        "content": "钳口绕支点持续合拢、夹持软金属条并使其形成明显折角",
+        "result": "passed"
+      },
+      {
+        "name": "开瓶器",
+        "source": "/media/bottle-opener-demo.webm",
+        "sourceName": "本站自制示意动画",
+        "license": "本站原创教学素材",
+        "duration": 8,
+        "frameAt": 5.5,
+        "evidence": ".trae/evidence/video-bottle-opener-operation.png",
+        "content": "开瓶器抵住瓶口形成支点，长柄抬起并将瓶盖完整撬离",
+        "result": "passed"
+      },
+      {
+        "name": "核桃夹",
+        "source": "/media/nutcracker-demo.webm",
+        "sourceName": "本站自制示意动画",
+        "license": "本站原创教学素材",
+        "duration": 8,
+        "frameAt": 4,
+        "evidence": ".trae/evidence/video-nutcracker-operation.png",
+        "content": "核桃位于铰链附近，双臂合拢集中挤压力并出现裂缝",
+        "result": "passed"
+      },
+      {
+        "name": "镊子",
+        "source": "/media/tweezers-demo.webm",
+        "sourceName": "本站自制示意动画",
+        "license": "本站原创教学素材",
+        "duration": 8,
+        "frameAt": 4.5,
+        "evidence": ".trae/evidence/video-tweezers-operation.png",
+        "content": "镊臂中部受力后钝头夹紧小珠并将其提起",
+        "result": "passed"
+      },
+      {
+        "name": "筷子",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/The_act_of_picking_up_black_beans_from_the_New_Year%27s_feast_with_chopsticks%2C_Niigata%2C_Japan%2C_January_2026.webm/The_act_of_picking_up_black_beans_from_the_New_Year%27s_feast_with_chopsticks%2C_Niigata%2C_Japan%2C_January_2026.webm.480p.vp9.webm",
+        "sourceName": "Wikimedia Commons · Tail furry",
+        "license": "CC BY-SA 4.0",
+        "duration": 24.108,
+        "frameAt": 21,
+        "evidence": ".trae/evidence/video-chopsticks-operation.png",
+        "content": "两根筷尖合拢并夹取盘中的黑豆",
+        "result": "passed"
+      },
+      {
+        "name": "跷跷板",
+        "source": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Stehwippe.webm/Stehwippe.webm.480p.vp9.webm",
+        "sourceName": "Wikimedia Commons · GolhaMedia",
+        "license": "CC BY-SA 4.0",
+        "duration": 26.19,
+        "frameAt": 8,
+        "evidence": ".trae/evidence/video-seesaw-operation.png",
+        "content": "两人站在横梁两端，横梁绕中央支点一上一下运动",
+        "result": "passed"
+      },
+      {
+        "name": "天平",
+        "source": "/media/balance-demo.webm",
+        "sourceName": "本站自制示意动画",
+        "license": "本站原创教学素材",
+        "duration": 8,
+        "frameAt": 7.2,
+        "evidence": ".trae/evidence/video-balance-operation.png",
+        "content": "两盘分别放置物体与砝码，横梁由倾斜逐渐回到水平平衡",
+        "result": "passed"
+      }
+    ]
+  }
+}
