@@ -14,6 +14,8 @@ export function useActiveChapter() {
       .map(({ id }) => document.getElementById(id))
       .filter((section): section is HTMLElement => section !== null);
 
+    if (!("IntersectionObserver" in window)) return;
+
     const observer = new IntersectionObserver(
       (entries) => {
         const visibleEntry = entries
@@ -36,10 +38,18 @@ export function useActiveChapter() {
 
   const goToChapter = (chapter: ChapterId) => {
     setActiveChapter(chapter);
-    const reduceMotion = window.matchMedia(
-      "(prefers-reduced-motion: reduce)",
-    ).matches;
-    document.getElementById(chapter)?.scrollIntoView({
+    const section = document.getElementById(chapter);
+    if (!section) return;
+
+    const reduceMotion =
+      typeof window.matchMedia === "function" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (!("scrollBehavior" in document.documentElement.style)) {
+      section.scrollIntoView();
+      return;
+    }
+
+    section.scrollIntoView({
       behavior: reduceMotion ? "auto" : "smooth",
       block: "start",
     });

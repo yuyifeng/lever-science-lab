@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import legacy from '@vitejs/plugin-legacy'
 import react from '@vitejs/plugin-react'
 import tsconfigPaths from "vite-tsconfig-paths";
 
@@ -9,6 +10,10 @@ export default defineConfig(({ command }) => ({
     sourcemap: 'hidden',
   },
   plugins: [
+    legacy({
+      targets: ["Chrome >= 64", "Android >= 7"],
+      modernPolyfills: ["es.object.from-entries"],
+    }),
     react({
       babel: command === "serve" ? {
         plugins: [
